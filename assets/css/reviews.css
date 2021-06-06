@@ -1,0 +1,84 @@
+.reviews{
+    background-color: #ccc;
+    padding:20px 10% 40px 10%;
+}
+.comentarios__titulo{
+    color: #16ACCD;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.comentarios__cards{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.comentarios__card{
+    background-color:#f7f0f5;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid #16ACCD;
+    font-family: 'Spartan', sans-serif;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+.comentarios__nome{
+    color: #16ACCD;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.comentario{
+    font-family: 'Spartan', sans-serif;
+    flex-grow: 1;
+}
+.foto-comentario{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #16ACCD;
+    border-radius: 100%;
+    display: block;
+    height: 90px;
+    margin: auto;
+    transform: translateY(-60%);
+    width: 90px;
+}
+.comentarios__foto--1{
+    background-image: url("https://unavatar.now.sh/github/thalescr");
+}
+.comentarios__foto--2{
+    background-image: url("https://unavatar.now.sh/github/jardelbrando");
+}
+.comentarios__foto--3{
+    background-image: url("https://unavatar.now.sh/github/Lunatc");
+}
+
+
+@media screen and (max-width:1090px){
+  .comentarios__card{
+      width:25%;
+      font-size:12px;
+  }
+}
+@media screen and (max-width:740px){
+  
+  .comentarios__cards{
+    flex-direction: column;
+    align-items: center;
+  }
+  .comentarios__card{
+      width:70%;
+      font-size:20px;
+      margin-bottom: 40px;
+  }
+
+}
+@media screen and (max-width:470px){
+  .comentarios__card{
+      font-size: 15px;
+  }
+}
