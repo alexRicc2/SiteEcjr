@@ -1,13 +1,16 @@
 .secao-team{
-    padding: 20px 10% 30px 10%;
+    padding: 40px 10% 50px 10%;
     text-align: center;
-    background-color: #A50C0C;
+    background-color: #cccccc;
 }
 .team__titulo{
     font-size: 1.5rem;
+    color:#16ACCD;
+    margin-bottom:5px;
 }
 .team__descricao{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    color:#16ACCD;
 }
 .time{
     display: flex;
@@ -19,6 +22,7 @@
     border-radius: 10px;
     width: 20%;
     background-color: #fff;
+    border: 3px solid white; 
 }
 .time__card__img{
     background-size: cover;
@@ -56,12 +60,12 @@
     border-radius: 0 0 10px 10px;
     padding: 8px;
 }
-.contata:hover{
-    background-color: teal;
-    transition: .3s;
-}
-.contata:hover a{
+.contata a{
     color: white;
+}
+.contata:hover{
+    background-color:#a50c0c;
+    transition: .4s;
 }
 
 

@@ -1,11 +1,11 @@
 .reviews{
-    background-color: #ccc;
-    padding:20px 10% 40px 10%;
+    background-color: #333333;
+    padding:30px 10% 50px 10%;
 }
 .comentarios__titulo{
     color: #16ACCD;
     font-size: 1.5rem;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     text-align: center;
 }
 .comentarios__cards{
@@ -21,9 +21,10 @@
     padding: 20px;
     border: 3px solid #16ACCD;
     font-family: 'Spartan', sans-serif;
-    width: 28%;
+    width: 25%;
     display: flex;
     flex-direction: column;
+    font-size: 15px;
 }
 .comentarios__nome{
     color: #16ACCD;
@@ -58,12 +59,7 @@
 }
 
 
-@media screen and (max-width:1090px){
-  .comentarios__card{
-      width:25%;
-      font-size:12px;
-  }
-}
+
 @media screen and (max-width:740px){
   
   .comentarios__cards{

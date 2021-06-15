@@ -3,7 +3,8 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:grey;
+  background-color:#333333;
+  color:#e2e2e2;
 }
 footer div *{
   margin:5px 0;
